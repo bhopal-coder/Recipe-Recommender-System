@@ -2,6 +2,7 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 import json
 import pandas as pd
+from streamlit_extras.switch_page_button import switch_page
 from  sklearn.feature_extraction.text import TfidfVectorizer
 
 from sklearn.neighbors import NearestNeighbors
