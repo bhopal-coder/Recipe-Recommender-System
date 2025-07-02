@@ -1,0 +1,4 @@
+streamlit
+streamlit_lottie
+pandas
+scikit-learn
