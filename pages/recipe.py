@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 from  sklearn.feature_extraction.text import TfidfVectorizer
+from streamlit_extras.switch_page_button import switch_page
+
 from sklearn.neighbors import NearestNeighbors
 df=pd.read_csv("ifood_new.csv")
 st.markdown(
