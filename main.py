@@ -147,7 +147,7 @@ with l:
             st.session_state.recipe_name =na1
             st.session_state.ing_name=in1
             st.session_state.navigated = True
-            st.switch_page("Recipe")
+            st.switch_page("Recipe.py")
             # 2nd veg
 if "random_dish2" not in st.session_state:
     ra2 = veg.sample(n=1)
