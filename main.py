@@ -103,7 +103,7 @@ with right:
           st.session_state.recipe_name =n1
           st.session_state.ing_name=i1
           st.session_state.navigated = True
-          st.switch_page("pages/Recipe.py")
+          st.switch_page("Recipe")
        mid.image(img2)
        with mid:
          st.write(n2)
@@ -114,7 +114,7 @@ with right:
             
             st.session_state.ing_name=i2
             st.session_state.navigated = True
-            st.switch_page("pages/Recipe.py")
+            st.switch_page("Recipe")
      else:
        st.write("No results Found!")
     else:
@@ -147,7 +147,7 @@ with l:
             st.session_state.recipe_name =na1
             st.session_state.ing_name=in1
             st.session_state.navigated = True
-            st.switch_page("pages/Recipe.py")
+            st.switch_page("Recipe")
             # 2nd veg
 if "random_dish2" not in st.session_state:
     ra2 = veg.sample(n=1)
@@ -170,7 +170,7 @@ with m:
             st.session_state.recipe_name =na2
             st.session_state.ing_name=in2
             st.session_state.navigated = True
-            st.switch_page("pages/Recipe.py")
+            st.switch_page("Recipe")
             # 3rd veg 
 if "random_dish3" not in st.session_state:
     ra3 = veg.sample(n=1)
@@ -192,7 +192,7 @@ with r:
             st.session_state.recipe_name =na3
             st.session_state.ing_name=in3
             st.session_state.navigated = True
-            st.switch_page("pages/Recipe.py")
+            st.switch_page("Recipe")
 st.subheader(":red[Some Non-Vegetarian Dishes:]")
 le,me,re=st.columns(3)
 nonveg=df[df['diet']=='non vegetarian']
@@ -217,7 +217,7 @@ with le:
             st.session_state.recipe_name =non4
             st.session_state.ing_name=in4
             st.session_state.navigated = True
-            st.switch_page("pages/Recipe.py")
+            st.switch_page("Recipe")
             # 2nd non veg
 if "random_dish5" not in st.session_state:
     ra5 = nonveg.sample(n=1)
@@ -239,7 +239,7 @@ with me:
             st.session_state.recipe_name =non5
             st.session_state.ing_name=in5
             st.session_state.navigated = True
-            st.switch_page("pages/Recipe.py")
+            st.switch_page("Recipe")
             # 3rd non veg
  
 if "random_dish6" not in st.session_state:
@@ -262,7 +262,7 @@ with re:
             st.session_state.recipe_name =non6
             st.session_state.ing_name=in6
             st.session_state.navigated = True
-            st.switch_page("pages/Recipe.py")
+            st.switch_page("Recipe")
 # if 'art_button_clicked' not in st.session_state:
 #     st.session_state.art_button_clicked=False
 
