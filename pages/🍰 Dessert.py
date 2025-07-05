@@ -20,7 +20,7 @@ st.markdown(
     </style>
     """, unsafe_allow_html=True)
 
-st.subheader(":red[Cakes And Sweet Dishes:]"
+st.subheader(":red[Cakes And Sweet Dishes:]")
 categories = {
     "Fruits": ["Pineapple","Strawberry","Banana"],
     "Essentials":['Milk','Vermicelli','Maida','sugar','Dark Chocolate','Cocoa Powder','Baking Soda']
