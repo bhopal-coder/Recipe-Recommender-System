@@ -26,7 +26,7 @@ categories = {
     "Fruits": ["Pineapple","Strawberry","Banana"],
     "Essentials":['Milk','Vermicelli','Maida','sugar','Dark Chocolate','Cocoa Powder','Baking Soda']
 }
-st.rerun()
+
 # Initialize selected ingredients as a set
 if "selected_ingredients" not in st.session_state:
     st.session_state.selected_ingredients = set()
