@@ -126,7 +126,7 @@ st.markdown("""
             }
     </style>
 """, unsafe_allow_html=True)
-st.sidebar.markdown("<p class='sidebar-title'>🍴 FlavourMania</p>", unsafe_allow_html=True)
+# st.sidebar.markdown("<p class='sidebar-title'>🍴 FlavourMania</p>", unsafe_allow_html=True)
 if "refresh_triggered" not in st.session_state:
     st.session_state.refresh_triggered = False
 
