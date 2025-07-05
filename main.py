@@ -79,7 +79,7 @@ with right:
           st.session_state.recipe_name = name
           st.session_state.ing_name =ing
           st.session_state.navigated = True
-          st.switch_page("pages/Recipe.py")
+          st.switch_page("Recipe")
       else:
        lef, mid = st.columns(2)
        img1=fil_df['img_url'].iloc[0]
