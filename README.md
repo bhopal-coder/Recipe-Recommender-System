@@ -1,2 +1,2 @@
 # Recipe-Recommender
-Suggests Recipes according to user's choices
+This project suggests Recipes according to user's choices
