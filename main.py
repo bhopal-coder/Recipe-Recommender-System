@@ -18,16 +18,25 @@ st.markdown("""
         #custom-header {
             position: absolute;
             top: 30px;     /* Y-axis */
-            left: 40px;   /* X-axis */
+            left: 40px;    /* X-axis */
             color: red;
             font-size: 36px;
             font-weight: bold;
-            z-index: 10000;
+        }
+
+        /* Responsive adjustments for mobile */
+        @media only screen and (max-width: 768px) {
+            #custom-header {
+                font-size: 24px;   /* smaller font on mobile */
+                top: 20px;
+                left: 10px;
+            }
         }
     </style>
-
-    <div id="custom-header">🍴 FlavourMania</div>
 """, unsafe_allow_html=True)
+
+# Example usage of custom header
+st.markdown('<div id="custom-header">🍴 FlavourMania</div>', unsafe_allow_html=True)
 # st.markdown("<h1 style='text-align: center; color: red;'>🍴 FlavourMania</h1>", unsafe_allow_html=True)
 
 # Sidebar Title
