@@ -17,8 +17,8 @@ st.markdown("""
     <style>
         #custom-header {
             position: absolute;
-            top: 10px;     /* Y-axis */
-            left: 40px;    /* X-axis */
+            top: 5px;     /* Y-axis */
+            left: 30px;    /* X-axis */
             color: red;
             font-size: 36px;
             font-weight: bold;
