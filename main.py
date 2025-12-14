@@ -28,7 +28,7 @@ st.markdown("""
         @media only screen and (max-width: 768px) {
             #custom-header {
                 font-size: 24px;   /* smaller font on mobile */
-                top: 20px;
+                top: 10px;
                 left: 10px;
             }
         }
