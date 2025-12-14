@@ -37,7 +37,7 @@ st.markdown("""
 
 # Example usage of custom header
 
-st.markdown('<div id="custom-header">🍴 FlavourMania -- From cravings to cooking — find recipes that fit you.</div>', unsafe_allow_html=True)
+st.markdown('<div id="custom-header">🍴 FlavourMania</div>', unsafe_allow_html=True)
 # st.markdown("<h1 style='text-align: center; color: red;'>🍴 FlavourMania</h1>", unsafe_allow_html=True)
 
 # Sidebar Title
